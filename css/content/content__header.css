@@ -1,24 +1,26 @@
-.header {
-    grid-area: header;
-    height: 56px;
+.content__header {
+    font-size: 24px;
+    margin-top: 24px;
 }
 
 /* iPhone SE */
 @media screen and (min-width: 375px) {
-    
+    .content__header {
+        margin-top: 32px;
+    }
 }
 
 /* iPhone 11 */
 @media screen and (min-width: 414px) {
-    .header {
-        height: 72px;
+    .content__header {
+        font-size: 72px;
     }
 }
 
 /* iPad mini */
 @media screen and (min-width: 768px) {
-    .header {
-        height: 76px;
+    .content__header {
+        font-size: 48px;
     }
 }
 
