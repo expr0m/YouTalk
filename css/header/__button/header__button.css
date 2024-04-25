@@ -1,0 +1,12 @@
+.header__button {
+    background: #E3F5F5;
+    color: #03B2A5;
+
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__button {
+        display: block;
+    }
+}
